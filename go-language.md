@@ -2,6 +2,10 @@
 
 
 
+#### Function Related
+
+
+
 > Parameter pass by value
 
 * Strings 
@@ -18,7 +22,21 @@
 
 
 
+> Variable change
 
+Variable will be change if it is pass by pointer
+
+```
+type Circle struct {
+    radius int
+}
+
+func (c *Circle) Area() int {
+    area := 3.14 * c.radius * c.radius
+    return area
+}
+
+```
 
 
 
