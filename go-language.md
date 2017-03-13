@@ -35,12 +35,10 @@ func main() {
     c := Circle{3}  
     c.NotChange()   // c keep the same radium
     c.Change()      // c change its radium
-    
+
     cp := &Circle{3}
     c.NotChange() // c keep the same radium
     c.Change() // c change its radium  
-    
-    
 }
 ```
 
