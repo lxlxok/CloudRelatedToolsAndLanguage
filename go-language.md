@@ -2,11 +2,23 @@
 
 
 
-Parameter of cu
+> Parameter pass by value
 
-Parameter of function pass by pointer  
+* Strings 
+* String
+* Number
+* Boolean   
 
-map and slice 
+> Parameter of function pass by pointer
+
+* map  
+* slice
+
+
+
+
+
+
 
 
 
