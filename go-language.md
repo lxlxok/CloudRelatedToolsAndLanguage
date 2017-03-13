@@ -33,8 +33,8 @@ func (c Circle) NotChange() {
 
 func main() {
     c := Circle{3}
-    NotChange()
-    Change()
+    NotChange()   // c keep the same radium
+    Change()      // c change its radium
 }
 ```
 
