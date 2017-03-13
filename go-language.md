@@ -23,7 +23,7 @@ type Circle struct {
     radius int
 }
 
-func (c *Circle) Change() int {
+func (c *Circle) Change() {
     c.radius = 5
 }
 ```
