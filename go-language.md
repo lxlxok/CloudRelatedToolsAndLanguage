@@ -26,6 +26,10 @@ type Circle struct {
 func (c *Circle) Change() {
     c.radius = 5  
 }
+
+func (c Circle) NotChange() {
+    c.radius = 5
+}
 ```
 
 
