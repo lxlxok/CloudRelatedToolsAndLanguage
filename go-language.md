@@ -32,9 +32,15 @@ func (c Circle) NotChange() {
 }
 
 func main() {
-    c := Circle{3}
-    NotChange()   // c keep the same radium
-    Change()      // c change its radium
+    c := Circle{3}  
+    c.NotChange()   // c keep the same radium
+    c.Change()      // c change its radium
+    
+    cp := &Circle{3}
+    c.NotChange() // c keep the same radium
+    c.Change() // c change its radium  
+    
+    
 }
 ```
 
