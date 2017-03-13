@@ -30,6 +30,12 @@ func (c *Circle) Change() {
 func (c Circle) NotChange() {
     c.radius = 5
 }
+
+func main() {
+    c := Circle{3}
+    NotChange()
+    Change()
+}
 ```
 
 
