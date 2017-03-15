@@ -54,9 +54,11 @@ package method
 var GlobleStatus = 0
 ```
 
-If the package is imported, only exported variable can be change by `packageName.varaibleName`
+If the package is imported, only exported variable can be change  `method.GlobleStatus`
 
 > The uniqueness of variable
+
+There is only one singleton of `method.GlobleStatus` variable, no matter how many time the package have been imported by different package.
 
 
 
