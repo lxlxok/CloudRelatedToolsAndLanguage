@@ -49,14 +49,14 @@ func main() {
 In the same package, variable can be change directly by name.
 
 ```
+package method
+
 var GlobleStatus = 0
 ```
 
-If the package is imported, only exported variable can be change by `packageName.varaibleName `
+If the package is imported, only exported variable can be change by `packageName.varaibleName`
 
 > The uniqueness of variable
-
-
 
 
 
