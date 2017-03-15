@@ -42,17 +42,19 @@ func main() {
 }
 ```
 
-
-
-
-
-#### Scope Related
+#### Variable Related
 
 > How to change a variable
 
 In the same package, variable can be change directly by name.
 
-If the package is imported, only exported variable can be change by \`packageName.varaibleName\`
+```
+var GlobleStatus = 0
+```
+
+If the package is imported, only exported variable can be change by `packageName.varaibleName `
+
+> The uniqueness of variable
 
 
 
